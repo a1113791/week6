@@ -1,60 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <script type="module" crossorigin src="/week6/assets/main-deab7506.js"></script>
-    <link rel="stylesheet" href="/week6/assets/main-0c9c83dd.css">
-  </head>
-  <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Sans+TC:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <title>index</title>
+      <script type="module" crossorigin src="/week6/assets/main-cb044f8e.js"></script>
+      <link rel="stylesheet" href="/week6/assets/main-ddaf85d7.css">
+    </head>
+    <body>
+        <header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Vivre</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="搜尋文章"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">所有文章</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">訂閱方案</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">登入/註冊</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+</header>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
+        <h1 class="index-title">我是首頁</h1>
 
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+        <div class="card" style="width: 18rem">
+            <img
+                src="../assets/images/cat.jpg"
+                class="card-img-top"
+                alt="cat"
+            />
+            <div class="card-body">
+                <h5 class="card-title">卡片元件</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque, odit, iusto odio assumenda alias id nobis earum!
+                </p>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <footer class="footer">我是 footer</footer>
-    
-  </body>
+        <!-- Modal 按鈕 -->
+        <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+        >
+            打開 modal
+        </button>
+
+        <!-- Modal 元件 -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Modal 標題
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">內容</div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            關閉
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            確定
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">我是 footer</footer>
+        
+    </body>
 </html>
