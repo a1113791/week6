@@ -460,6 +460,7 @@ $spacers: (
 	3: $spacer,
 	4: $spacer * 1.5,
 	5: $spacer * 3,
+	6: $spacer * 5,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -703,7 +704,8 @@ $font-sizes: (
 $headings-margin-bottom: $spacer * 0.5 !default;
 $headings-font-family: null !default;
 $headings-font-style: null !default;
-$headings-font-weight: 500 !default;
+// $headings-font-weight: 500 !default;
+$headings-font-weight: 900 !default;
 $headings-line-height: 1.2 !default;
 $headings-color: inherit !default;
 // scss-docs-end headings-variables
