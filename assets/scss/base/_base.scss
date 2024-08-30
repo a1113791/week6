@@ -15,3 +15,7 @@ p {
 		font-weight: 900;
 	}
 }
+.filled-btn :hover {
+	background: $accent-300;
+	color: #fff;
+}
