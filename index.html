@@ -9,8 +9,8 @@
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
 		<title>index</title>
-		<script type="module" crossorigin src="/week6/assets/main-7d60981e.js"></script>
-		<link rel="stylesheet" href="/week6/assets/main-c7074493.css">
+		<script type="module" crossorigin src="/week6/assets/main-54f884bd.js"></script>
+		<link rel="stylesheet" href="/week6/assets/main-cf484046.css">
 	</head>
 	<body>
 		<header class="header bg-primary-100">
@@ -74,7 +74,10 @@
 							>
 						</li>
 					</ul>
-					<button type="button" class="btn btn-accent-200 px-5">
+					<button
+						type="button"
+						class="btn btn-accent-200 px-5 filled-btn"
+					>
 						登入/註冊
 					</button>
 				</div>
@@ -106,7 +109,7 @@
 							<h1 class="fs-lg-1 fs-3">一起探索生活的無限可能</h1>
 						</div>
 						<button
-							class="btn btn-accent-200 fs-lg-5 fs-6 px-lg-5 px-4 py-lg-3 py-2"
+							class="filled-btn btn btn-accent-200 fs-lg-5 fs-6 px-lg-5 px-4 py-lg-3 py-2"
 							type="button"
 						>
 							馬上訂閱
@@ -388,9 +391,9 @@
 		<div class="activity bg-primary-200">
 			<div class="container">
 				<div
-					class="py-lg-10 py-8 d-flex flex-column align-items-center"
+					class="py-lg-10 py-8 d-flex flex-column align-items-center position-relative"
 				>
-					<h4 class="text-primary-400 mb-lg-4 mb-2">
+					<h4 class="text-primary-400 mb-lg-4 mb-2 fs-lg-4 fs-6">
 						\ 母親節強檔活動 /
 					</h4>
 					<h2 class="text-neutral-500 mb-lg-4 mb-5">
@@ -422,7 +425,17 @@
 							<p>為每個成員量身打造專屬行程</p>
 						</div>
 					</div>
-					<button class="btn btn-accent-200">我想了解</button>
+					<button
+						class="filled-btn btn btn-accent-200 py-3 px-5 fs-5"
+					>
+						我想了解
+					</button>
+					<div class="position-absolute bottom-0 start-0">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAABRCAYAAABfXQPDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAoJSURBVHgB7Z1bbBxXGcf/3+z4IgdXa2onShMap4i2eajYiFbAQ5V1SxLCAyGVkBABkiCB6ANq8gACiSoxN6EKlOQJFYTqiAoeUIktqJI4UC/wEqmELOpDaSWIIyBpnKR249hJ7J35es6sd7NnveudXc/eZr6ftNq5nGmdn/Y75zuXmSE0EZ4+GcfimkGXKGnB3cTAIPSHEAd72yaESTBNqitnCJh0YV2ygDQNbE8hBIgPk7D4IDQYvnY2qb62MVh9609QUIpBYxZzitbuSKNNEB8mYfTRkCDjqfEEiHYz8UEwx1FvVI1GjFHY7nHq2zWJFkN8mITdR12DTNdKqkY6HGyNVDWjBOt4K6RQreGDUgQaFh856u+jLkHWIsFlomsvxA5R/6dG0WDEh0nUfAQaZC0pbzmjZLuHGpEmiA+TqPoIJMi8UaBMz2E1+nMQbYJKIY+oFGEYdUB8mETdx6qDjKfHE+zwyZJDqq2OThFi7lCQtZb4MBEfgIVVwDfGn+MMX2hLgRr1d3PGuuC8czqQGlZ8FP3nxIdHzS0ZXztztJ2a/0qsNj0QHybio/DaKtH5NWfWnGzxzmtNMNFIrH/HgaquER/mNeJjGVUFWVZgz4TaTCC8pMmeV3n4nplKBcWHifgoje8gi4jAHBVFig8T8VEe3wMfERKoSbjOmqMrFRAfJuKjPL6CTHdiER2BHsS8X02elhQpPkzEx8pUDDK+caatJhGDhOEeLB6+FR/iI0cpH6VYsU/mTSTqeY5oM0O2u1VPSIoPD/FhkvdRrkDZIPM6sk5P+04kBovX0RUfecSHSdoa2Lm13Mny6WKm57AIzJOQH5SB+DBJOFfPHCl3smRLxtOn9HKSixAEwTcqbdxcKm0s2ZKxY00gxHzney/iI499CcmdB/Hmvy4h6ogPk1p9cCb2Uqnjy4KMp8b3hzkN+P3Y3/CK+mj+f/k6fvTCy4gy4sNkdT44ufSMEoPlQWbpm+rCy83ZeWN/tmg/aogPk9X6yN6UamIEWdhbMc0zu5/Exg0D+f2nn/oYooz4MFmtDyZKLk5fSBYeMwY+3Gvjas6DmzZzr2uNs3/+O+67rwdbHh3Ehgf6UQ/0/+fc6296Mrc88iBaFfFh0so+2OoBdw543yqqUh09Dw7lzuWDjKdeTTDZTZtY1Pnv3gM/9L41WuAffvdj9CqhUUR8mLSqDyYL3LEBbH/AOG4vOH3Ut9lbQHwvXbQ6nkMTOfva+bxAjd5+ZeyviCriw6QVfTB1w+16aFmAaTKdVn65VT7IuMk32d28ObfsWKHUqCE+TFrNB1MH3O5NunEqeZ5A+3LbXpDxtVPJZg94bH/6cZVrrzGO7f/ypxFVxIdJq/lwu1SAUfkFU/q5/Yu3/5vU216fzLl++hgxNTVd1OiaaeTXp3Hz1jye+eyT+PgTWxBlxIdJq/hguxdu58bK5YgPdfZsOuYFWbNHFQWhnXA7+tVgx0DlgkujjBZPT8QlwAShCtj1WS57I6uFzB0JMEGoAst5D+Te9VM0vrBwMWG7oETDX1ImCO0MO7DuXoJr94Fj8eUjjLql49sgZx50+2bCVnnjoB4KEQShCnSgLaopBPXRw/mgpUDjRZD65IupUUab2PooJMoEoWa8oCoILPMkbbLVVxwNQi9BQaw3u74r1q2OxJbOOGrIRtUAziwo8x6igvgwCaMPYt2SEce5zg2ZsXiyJB2eVFaCyf6gl+/6HsGpkiuXr+L8629g29An0Vs0udkoxIdJqH0QD1pcx5UeumZyOz/kLT8pL7DoGqtbdSjvR734xc9/g+HnjyI1cQ6NRnyYRMWHjTqRXTy5sezarhWvjSnhiwgcXUv9cexP3vbjTzyGRiI+TKLkY1XvJytHpcWTlSDX8VXu7bf+A7/Mzs7hG1/9rrf9tWf3Yv0Da9EoxIdJ1HzUJcgqLZ6sBLmzFcv87IVfYu/nv+k17VcuT61YVgv81sEf4LKqqdZvWIevP/tFNBLxYRI1H7HD3/6Kvu+lGwGhF0+ymqSrFcq8q+YfblQs19XZiX+cf8PrpP725bElkYT7+/vQ1dXpldHHdPP/fSVa12pa4Iu/+gl6exvXwRcfJpHzQZghvn7mYpCDH74XT5b6e9TwrLVw2Xd5nUPrjmouj16Jhx99CD899nxD0yLN6nzMKh//810+/D7a8fdBKQp6Bb6rhli5cx2qhRauwlK1VC1omanXzuEvakTo7bf+jdmlG/z0EOzDj3wYX9i7G8mnPoFmID5MoudDBZkzdWaECPsQFBTzcm62uvyVd+cQu3ul/Ix5uyM+TCLmg5mP67WLkwiSKhZPejVTnSYVWwbxYRI1Hyq+bItokoNe8uFz8WRkEB8mEfJhIZa2seikYNdlJN9jxcWTEUR8mITeh30rbdF6/RYK8v0md0EQ/EJp/fL27NOqmMcgCEKgMCGtv7N5InEagiAEioVs4+UFmWV3jUAQhGCJzaf0lxdk1Dc0oyfNIAhCIDDRiO6P6e2Cx3S70i8ThIDIpYqae291mZ6Ic2bxotpq2OMIBCGUMCattTs353bzLZlOGRnOcQiCsCpcuMOF+8YstGV3H4MgCLWjWrGYg1ThISPIvNaMWFozQagRZpzILvC4x7L1VFas64isABGEGtB9MdcdKT68LMikbyYItaH7YsWtmKbkY/C9kcbFhQveI7wFQahM0YhiISWX3+vWjMg9ACEPsfgoRHyYkOMOlTtX9h4XGtiVkkGQLOximNbuGhEfWcSHieejRJqYo+JbkyL/Fk6yRq3+7Xtyu+JDfBgU+ShFxbs1KePs0fkmooj6d9Ni5lDhIfEhPvKU8FEKX+//46nxBBMmorXkimbUD2hrqTRAfJiIj5Xx9dwBWrsjTexUjNjwoAQyhsoJFB9FZ8XHivh+uIfu6EZjREkJdDMH9A9nxVLiwywlPspfgSrhqVP7mayXEEqWaqgqBIoPE/FR4irUgJeDg0+GarJad2JBe6oV6F0qPsxLw9hHW4WPmp4F5+XgevItLKNKDO/fU4tAjfgw8XyoQQHxkaXmBy7qTh91dG7Vq47RxujHKNPcvO9ObDnEh4n4uEdN6eKyP0Tn4bAOt1e6tNSBXfeZUQSM+DCJuo9AHh3sjSyp5rRdai2vdro1t7kePyiN+DCJuo9AWrJCeOpVNQhgt+ggAKUIzrBel4kGIT5Mougj8CDLkR3Kje1TW0k0ncb/mIoRHyZR8lG3IMvB104lXbb2B/oONF/QDLN7wiIebeaPqRjxYRIFH3UPshx88WQca7o/x2TvztZe9ZhD0eIwapFzArfupGnznpZ9jIL4MAmzj4YFWTFeDQZKEGLb1N5gTbdLECbZpRTI/acFTrdSDV0t4sMkTD6aFmSl0CsFQE4cFBvU+y7zYO6cfllhtpAziYya5LxzZ6aVa+YgEB8m7erjffVIQouHOC5TAAAAAElFTkSuQmCC" alt="" />
+					</div>
+					<div class="position-absolute bottom-0 end-0">
+						<img src="/week6/assets/bg-2-6e36c816.png" alt="" />
+					</div>
 				</div>
 			</div>
 		</div>
