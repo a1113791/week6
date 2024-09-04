@@ -599,11 +599,18 @@
 							<p class="life-title text-primary-400 mb-lg-6 mb-5">
 								食.
 							</p>
-							<img
-								src="../assets/images/life-1.png"
-								class="card-img-top mb-lg-6 mb-5"
-								alt="life-1"
-							/>
+							<picture>
+								<source
+									media="(min-width: 992px)"
+									srcset="../assets/images/life-1.png"
+									alt="life-1"
+								/>
+								<img
+									src="../assets/images/life-1-sm.png"
+									alt="life-1-sm"
+									class="card-img-top mb-lg-6 mb-5"
+								/>
+							</picture>
 							<div class="card-body mb-lg-6 mb-5">
 								<div>
 									<h5 class="card-title mb-4">
@@ -631,11 +638,18 @@
 							<p class="life-title text-primary-400 mb-lg-6 mb-5">
 								藝.
 							</p>
-							<img
-								src="../assets/images/life-2.png"
-								class="card-img-top mb-lg-6 mb-5"
-								alt="life-2"
-							/>
+							<picture>
+								<source
+									media="(min-width: 992px)"
+									srcset="../assets/images/life-2.png"
+									alt="life-2"
+								/>
+								<img
+									src="../assets/images/life-2-sm.png"
+									alt="life-2-sm"
+									class="card-img-top mb-lg-6 mb-5"
+								/>
+							</picture>
 							<div class="card-body mb-lg-6 mb-5">
 								<div>
 									<h5 class="card-title mb-4">
@@ -663,11 +677,18 @@
 							<p class="life-title text-primary-400 mb-lg-6 mb-5">
 								旅.
 							</p>
-							<img
-								src="../assets/images/life-3.png"
-								class="card-img-top mb-lg-6 mb-5"
-								alt="life-3"
-							/>
+							<picture>
+								<source
+									media="(min-width: 992px)"
+									srcset="../assets/images/life-3.png"
+									alt="life-3"
+								/>
+								<img
+									src="../assets/images/life-3-sm.png"
+									alt="life-3-sm"
+									class="card-img-top mb-lg-6 mb-5"
+								/>
+							</picture>
 							<div class="card-body mb-lg-6 mb-5">
 								<div>
 									<h5 class="card-title mb-4">
@@ -695,7 +716,68 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="projects bg-primary-200">
+			<div class="container">
+				<div class="row py-lg-10 py-8 d-flex">
+					<div
+						class="col-lg-6 d-flex flex-column justify-content-center"
+					>
+						<div>
+							<div class="mb-lg-6 mb-5">
+								<h5 class="text-neutral-400 mb-3">
+									今天又不知道要去哪裡了嗎？
+								</h5>
+								<h2 class="text-neutral-500">
+									Vivre 給你意想不到的生活風格提案
+								</h2>
+							</div>
+							<div>
+								<button
+									class="filled-btn btn btn-accent-200 fs-lg-5 fs-6 px-lg-5 px-4 py-lg-3 py-2"
+									type="button"
+								>
+									馬上訂閱
+									<i class="bi bi-arrow-right ms-2"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<ul class="row list-unstyled">
+							<li class="col-lg-6 mt-lg-10 position-relative">
+								<img
+									src="../assets/images/projects-2.png"
+									alt="projects-2"
+								/>
+								<span
+									class="badge bg-accent-100 text-accent-300 py-1 px-2 position-absolute top-0 start-0 translate-middle"
+									><i class="bi bi-play-fill me-1"></i
+									>人氣行程</span
+								>
+							</li>
+							<li class="col-lg-6">
+								<img
+									src="../assets/images/projects-1.png"
+									alt="projects-1"
+								/>
+							</li>
+							<li class="col-lg-6 mt-lg-7">
+								<img
+									src="../assets/images/projects-4.png"
+									alt="projects-4"
+								/>
+							</li>
+							<li class="col-lg-6">
+								<img
+									src="../assets/images/projects-3.png"
+									alt="projects-3"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		<%- include('./layout/footer'); -%>
 
 		<script type="module" src="../main.js"></script>
