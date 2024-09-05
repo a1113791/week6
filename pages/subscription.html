@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>subscription</title>
+	</head>
+	<body>
+		<%- include('./layout/header'); -%>
+		<div class="subscription">
+			<div class="container">
+				<div class="subscription-content">
+					<nav aria-label="breadcrumb" class="mb-lg-4 mb-1">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item">
+								<a href="index.html" class="link-neutral-400"
+									>首頁</a
+								>
+							</li>
+							<li
+								class="breadcrumb-item active"
+								aria-current="page"
+							>
+								訂閱方案
+							</li>
+						</ol>
+					</nav>
+					<h1 class="mb-lg-9 mb-7">訂閱方案</h1>
+					<ul
+						class="nav nav-pills mb-3 justify-content-center mb-lg-7 mb-5"
+						id="pills-tab"
+						role="tablist"
+					>
+						<li class="nav-item me-lg-5" role="presentation">
+							<button
+								class="nav-link active py-2 px-10"
+								id="pills-home-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#pills-home"
+								type="button"
+								role="tab"
+								aria-controls="pills-home"
+								aria-selected="true"
+							>
+								年繳
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link py-2 px-10"
+								id="pills-profile-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#pills-profile"
+								type="button"
+								role="tab"
+								aria-controls="pills-profile"
+								aria-selected="false"
+							>
+								月繳
+							</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div
+							class="tab-pane fade show active"
+							id="pills-home"
+							role="tabpanel"
+							aria-labelledby="pills-home-tab"
+						>
+							<div class="row">
+								<div class="col-lg-4 mb-lg-0 mb-5">
+									<div
+										class="card bg-neutral-white border border-primary-300 h-100"
+									>
+										<div
+											class="card-body d-flex flex-column justify-content-between px-7"
+										>
+											<div class="text-neutral-400 mb-9">
+												<div
+													class="d-flex flex-column align-items-center"
+												>
+													<h5 class="mb-3">輕量型</h5>
+													<div
+														class="d-flex mb-7 align-items-center"
+													>
+														<p class="fs-1">
+															NT 99
+														</p>
+														<p class="fs-4">/ 月</p>
+													</div>
+												</div>
+												<div>
+													<div class="list-group">
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															每月最新文章無限閱讀
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															專屬會員限定內容
+														</label>
+														<label
+															class="list-group-item p-0"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															定期電子報
+														</label>
+													</div>
+												</div>
+											</div>
+											<button
+												class="filled-btn btn btn-accent-200 fs-lg-5 fs-6 py-lg-3 py-2"
+												type="button"
+											>
+												我要訂閱
+												<i
+													class="bi bi-arrow-right ms-2"
+												></i>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 mb-lg-0 mb-5">
+									<div
+										class="card bg-neutral-white border border-primary-300 h-100"
+									>
+										<div
+											class="card-body d-flex flex-column justify-content-between px-7"
+										>
+											<div class="text-neutral-400 mb-9">
+												<div
+													class="d-flex flex-column align-items-center"
+												>
+													<h5 class="mb-3">玩咖型</h5>
+													<div
+														class="d-flex mb-7 align-items-center"
+													>
+														<p class="fs-1">
+															NT 159
+														</p>
+														<p class="fs-4">/ 月</p>
+													</div>
+												</div>
+												<div>
+													<div class="list-group">
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															每月最新文章無限閱讀
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															專屬會員限定內容
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															定期電子報
+														</label>
+														<label
+															class="list-group-item p-0"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															年度精選禮物
+														</label>
+													</div>
+												</div>
+											</div>
+											<button
+												class="filled-btn btn btn-accent-200 fs-lg-5 fs-6 py-lg-3 py-2"
+												type="button"
+											>
+												我要訂閱
+												<i
+													class="bi bi-arrow-right ms-2"
+												></i>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div
+										class="card bg-neutral-white border border-primary-300 h-100"
+									>
+										<div
+											class="card-body d-flex flex-column justify-content-between px-7"
+										>
+											<div class="text-neutral-400 mb-9">
+												<div
+													class="d-flex flex-column align-items-center"
+												>
+													<h5 class="mb-3">家庭型</h5>
+													<div
+														class="d-flex mb-7 align-items-center"
+													>
+														<p class="fs-1">
+															NT 599
+														</p>
+														<p class="fs-4">/ 月</p>
+													</div>
+												</div>
+												<div>
+													<div class="list-group">
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															每月最新文章無限閱讀
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															專屬會員限定內容
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															定期電子報
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															24/7 優先客戶服務
+														</label>
+														<label
+															class="list-group-item p-0 mb-5"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															為每個成員量身打造專屬行程
+														</label>
+														<label
+															class="list-group-item p-0"
+														>
+															<input
+																class="form-check-input me-1"
+																type="checkbox"
+																value=""
+															/>
+															最多 5
+															個家庭成員共享
+														</label>
+													</div>
+												</div>
+											</div>
+											<button
+												class="filled-btn btn btn-accent-200 fs-lg-5 fs-6 py-lg-3 py-2"
+												type="button"
+											>
+												我要訂閱
+												<i
+													class="bi bi-arrow-right ms-2"
+												></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="pills-profile"
+							role="tabpanel"
+							aria-labelledby="pills-profile-tab"
+						></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%- include('./layout/footer'); -%>
+
+		<script type="module" src="../main.js"></script>
+	</body>
+</html>
