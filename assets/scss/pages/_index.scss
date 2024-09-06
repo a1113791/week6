@@ -24,6 +24,13 @@
     color: #fff;
 }
 
+.swiper-button-prev:after {
+    display: none;
+}
+.swiper-button-next:after {
+    display: none;
+}
+
 .hots-img-border-r {
     border-radius: 4px;
     @media (min-width: 992px) {
